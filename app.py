@@ -1,21 +1,4 @@
-"""
-AI-Powered News Analysis Application
-=====================================
-Backend : Flask (Python)
-News API: NewsAPI.org  — free at newsapi.org
-AI API  : Groq         — free at console.groq.com (no credit card needed)
 
-Features:
-  - Fetch trending news by category & country
-  - AI analysis (summary, sentiment, key point) per article
-  - AI editorial digest across all headlines
-  - News chatbot — ask anything about the loaded articles
-
-Setup:
-  pip install -r requirements.txt
-  cp .env.example .env
-  python app.py  →  open http://localhost:5000
-"""
 
 import os
 import json
